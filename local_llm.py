@@ -4,8 +4,8 @@ from ibm_watson_machine_learning.foundation_models.utils.enums import ModelTypes
 import gradio as gr
 
 # Set up the API key and project ID for IBM Watson 
-watsonx_API = "9H1HWbBFHw-SGa817G3FoONOpSuqDUGrkpeDce6YYC2N" # below is the instruction how to get them
-project_id= "0aa28a9c-b78c-492f-b721-d10f25a60fd5" # like "0blahblah-000-9999-blah-99bla0hblah0"
+watsonx_API = "" # below is the instruction how to get them
+project_id= "" # like "0blahblah-000-9999-blah-99bla0hblah0"
 
 generate_params = {
     GenParams.MAX_NEW_TOKENS: 250
